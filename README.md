@@ -147,7 +147,7 @@ For public reproducibility examples, use synthetic or fully de-identified data w
 
 ## Contributors
 
-**袁馨儿（Xin'er Yuan）**是该项目的主要贡献者。
+**袁馨儿（Xin'er Yuan）** is the primary contributor to this project.
 
 ## License
 
