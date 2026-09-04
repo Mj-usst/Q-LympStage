@@ -153,6 +153,10 @@ If institutional and intellectual-property policies permit release of the final 
 
 The repository is prepared for code availability associated with submission to **Radiology: Artificial Intelligence**. Update this section, the repository URL in `CITATION.cff`, and the manuscript DOI after publication.
 
+## Contributors
+
+**袁馨儿 (Xin'er Yuan)** is the primary contributor and completed the majority of the work in this project.
+
 ## Citation
 
 GitHub will display citation metadata from `CITATION.cff`. Replace the provisional group-author/citation metadata with the final author list, repository URL, DOI, and publication details when these identifiers are available.
