@@ -145,22 +145,10 @@ The `.gitignore` therefore excludes common clinical-imaging and spreadsheet form
 
 For public reproducibility examples, use synthetic or fully de-identified data whose release has been explicitly authorized.
 
-## Trained model
-
-If institutional and intellectual-property policies permit release of the final trained Q-LympStage model, the model artifact can be distributed separately or placed in a documented `models/` directory. Verify institutional authorization before publishing trained weights.
-
-## Manuscript status
-
-The repository is prepared for code availability associated with submission to **Radiology: Artificial Intelligence**. Update this section, the repository URL in `CITATION.cff`, and the manuscript DOI after publication.
-
 ## Contributors
 
-**袁馨儿 (Xin'er Yuan)** is the primary contributor and completed the majority of the work in this project.
-
-## Citation
-
-GitHub will display citation metadata from `CITATION.cff`. Replace the provisional group-author/citation metadata with the final author list, repository URL, DOI, and publication details when these identifiers are available.
+**袁馨儿（Xin'er Yuan）**是该项目的主要贡献者。
 
 ## License
 
-The code in this repository is provided under the MIT License. Before public release, confirm that this license is compatible with institutional, collaborator, and intellectual-property requirements.
+The code in this repository is provided under the MIT License.
