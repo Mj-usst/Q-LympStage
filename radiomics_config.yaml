@@ -1,0 +1,29 @@
+# Q-LympStage radiomics configuration
+# Parameters correspond to the manuscript/supplementary methods.
+# Images and masks must already be resampled to isotropic 1 x 1 x 1 mm3
+# before PyRadiomics extraction; therefore resampledPixelSpacing is null.
+
+imageType:
+  Original: {}
+  Wavelet: {}
+  LoG:
+    sigma: [1.0, 2.0, 3.0]
+
+featureClass:
+  firstorder: []
+  glcm: []
+  glrlm: []
+  glszm: []
+  gldm: []
+  ngtdm: []
+
+setting:
+  binWidth: 25
+  resampledPixelSpacing: null
+  interpolator: sitkBSpline
+  normalize: true
+  normalizeScale: 1
+  removeOutliers: null
+  force2D: false
+  label: 1
+  geometryTolerance: 0.001

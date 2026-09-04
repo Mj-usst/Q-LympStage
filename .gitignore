@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+conda-meta/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+~$*
+.ipynb_checkpoints/
+
+# Local outputs
+output/
+outputs/
+results/
+checkpoints/
+*.joblib
+*.pkl
+*.pickle
+
+# Clinical / imaging data: never commit protected patient data
+data/
+datasets/
+images/
+masks/
+dicom/
+DICOM/
+nifti/
+NIfTI/
+*.dcm
+*.nii
+*.nii.gz
+*.nrrd
+*.mha
+*.mhd
+
+# Local tables and spreadsheets may contain identifiers
+*.xlsx
+*.xls
+
+# Secrets / environment variables
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+
+# Keep intentionally public examples/configuration if later added
+!examples/
+!examples/**
+!configs/
+!configs/**
